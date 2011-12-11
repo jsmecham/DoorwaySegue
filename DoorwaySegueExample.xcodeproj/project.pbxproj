@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A276E01495659100563522 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A276DF1495659100563522 /* UIKit.framework */; };
+		D0A276E21495659100563522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A276E11495659100563522 /* Foundation.framework */; };
+		D0A276E41495659100563522 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A276E31495659100563522 /* CoreGraphics.framework */; };
+		D0A276EA1495659100563522 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0A276E81495659100563522 /* InfoPlist.strings */; };
+		D0A276EC1495659100563522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A276EB1495659100563522 /* main.m */; };
+		D0A276F01495659200563522 /* CIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A276EF1495659200563522 /* CIAppDelegate.m */; };
+		D0A276F31495659200563522 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A276F11495659200563522 /* MainStoryboard_iPhone.storyboard */; };
+		D0A276F61495659200563522 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A276F41495659200563522 /* MainStoryboard_iPad.storyboard */; };
+		D0A276F91495659200563522 /* CIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A276F81495659200563522 /* CIViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0A276DB1495659100563522 /* DoorwaySegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorwaySegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A276DF1495659100563522 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0A276E11495659100563522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0A276E31495659100563522 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0A276E71495659100563522 /* DoorwaySegueExample-Info.plist */ = {isa = PBXFileReference; path = "DoorwaySegueExample-Info.plist"; sourceTree = "<group>"; };
+		D0A276E91495659100563522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0A276EB1495659100563522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0A276ED1495659200563522 /* DoorwaySegueExample-Prefix.pch */ = {isa = PBXFileReference; path = "DoorwaySegueExample-Prefix.pch"; sourceTree = "<group>"; };
+		D0A276EE1495659200563522 /* CIAppDelegate.h */ = {isa = PBXFileReference; path = CIAppDelegate.h; sourceTree = "<group>"; };
+		D0A276EF1495659200563522 /* CIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAppDelegate.m; sourceTree = "<group>"; };
+		D0A276F21495659200563522 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D0A276F51495659200563522 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D0A276F71495659200563522 /* CIViewController.h */ = {isa = PBXFileReference; path = CIViewController.h; sourceTree = "<group>"; };
+		D0A276F81495659200563522 /* CIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A276D81495659100563522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A276E01495659100563522 /* UIKit.framework in Frameworks */,
+				D0A276E21495659100563522 /* Foundation.framework in Frameworks */,
+				D0A276E41495659100563522 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A276D01495659100563522 = {
+			isa = PBXGroup;
+			children = (
+				D0A276E51495659100563522 /* DoorwaySegueExample */,
+				D0A276DE1495659100563522 /* Frameworks */,
+				D0A276DC1495659100563522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A276DC1495659100563522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A276DB1495659100563522 /* DoorwaySegueExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A276DE1495659100563522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A276DF1495659100563522 /* UIKit.framework */,
+				D0A276E11495659100563522 /* Foundation.framework */,
+				D0A276E31495659100563522 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A276E51495659100563522 /* DoorwaySegueExample */ = {
+			isa = PBXGroup;
+			children = (
+				D0A276EE1495659200563522 /* CIAppDelegate.h */,
+				D0A276EF1495659200563522 /* CIAppDelegate.m */,
+				D0A276F11495659200563522 /* MainStoryboard_iPhone.storyboard */,
+				D0A276F41495659200563522 /* MainStoryboard_iPad.storyboard */,
+				D0A276F71495659200563522 /* CIViewController.h */,
+				D0A276F81495659200563522 /* CIViewController.m */,
+				D0A276E61495659100563522 /* Supporting Files */,
+			);
+			path = DoorwaySegueExample;
+			sourceTree = "<group>";
+		};
+		D0A276E61495659100563522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0A276E71495659100563522 /* DoorwaySegueExample-Info.plist */,
+				D0A276E81495659100563522 /* InfoPlist.strings */,
+				D0A276EB1495659100563522 /* main.m */,
+				D0A276ED1495659200563522 /* DoorwaySegueExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A276DA1495659100563522 /* DoorwaySegueExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A276FC1495659200563522 /* Build configuration list for PBXNativeTarget "DoorwaySegueExample" */;
+			buildPhases = (
+				D0A276D71495659100563522 /* Sources */,
+				D0A276D81495659100563522 /* Frameworks */,
+				D0A276D91495659100563522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorwaySegueExample;
+			productName = DoorwaySegueExample;
+			productReference = D0A276DB1495659100563522 /* DoorwaySegueExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A276D21495659100563522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Core Intellect, LLC";
+			};
+			buildConfigurationList = D0A276D51495659100563522 /* Build configuration list for PBXProject "DoorwaySegueExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0A276D01495659100563522;
+			productRefGroup = D0A276DC1495659100563522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A276DA1495659100563522 /* DoorwaySegueExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A276D91495659100563522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A276EA1495659100563522 /* InfoPlist.strings in Resources */,
+				D0A276F31495659200563522 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D0A276F61495659200563522 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A276D71495659100563522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A276EC1495659100563522 /* main.m in Sources */,
+				D0A276F01495659200563522 /* CIAppDelegate.m in Sources */,
+				D0A276F91495659200563522 /* CIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0A276E81495659100563522 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A276E91495659100563522 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0A276F11495659200563522 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A276F21495659200563522 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D0A276F41495659200563522 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A276F51495659200563522 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0A276FA1495659200563522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A276FB1495659200563522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0A276FD1495659200563522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoorwaySegueExample/DoorwaySegueExample-Prefix.pch";
+				INFOPLIST_FILE = "DoorwaySegueExample/DoorwaySegueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0A276FE1495659200563522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoorwaySegueExample/DoorwaySegueExample-Prefix.pch";
+				INFOPLIST_FILE = "DoorwaySegueExample/DoorwaySegueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A276D51495659100563522 /* Build configuration list for PBXProject "DoorwaySegueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A276FA1495659200563522 /* Debug */,
+				D0A276FB1495659200563522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A276FC1495659200563522 /* Build configuration list for PBXNativeTarget "DoorwaySegueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A276FD1495659200563522 /* Debug */,
+				D0A276FE1495659200563522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A276D21495659100563522 /* Project object */;
+}
