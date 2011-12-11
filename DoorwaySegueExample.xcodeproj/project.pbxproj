@@ -16,6 +16,12 @@
 		D0A276F31495659200563522 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A276F11495659200563522 /* MainStoryboard_iPhone.storyboard */; };
 		D0A276F61495659200563522 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A276F41495659200563522 /* MainStoryboard_iPad.storyboard */; };
 		D0A276F91495659200563522 /* CIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A276F81495659200563522 /* CIViewController.m */; };
+		D0A27701149565AA00563522 /* CIDoorwaySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A27700149565AA00563522 /* CIDoorwaySegue.m */; };
+		D0A277031495662200563522 /* Dark Wood Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A277021495662200563522 /* Dark Wood Background.png */; };
+		D0A27709149566DB00563522 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A27708149566DA00563522 /* QuartzCore.framework */; };
+		D0A2770D1495674D00563522 /* Black Button.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A2770B1495674D00563522 /* Black Button.png */; };
+		D0A2770E1495674D00563522 /* Black Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A2770C1495674D00563522 /* Black Button@2x.png */; };
+		D0A27710149567FB00563522 /* Denim Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A2770F149567FB00563522 /* Denim Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +29,23 @@
 		D0A276DF1495659100563522 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0A276E11495659100563522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0A276E31495659100563522 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D0A276E71495659100563522 /* DoorwaySegueExample-Info.plist */ = {isa = PBXFileReference; path = "DoorwaySegueExample-Info.plist"; sourceTree = "<group>"; };
+		D0A276E71495659100563522 /* DoorwaySegueExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoorwaySegueExample-Info.plist"; sourceTree = "<group>"; };
 		D0A276E91495659100563522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0A276EB1495659100563522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D0A276ED1495659200563522 /* DoorwaySegueExample-Prefix.pch */ = {isa = PBXFileReference; path = "DoorwaySegueExample-Prefix.pch"; sourceTree = "<group>"; };
-		D0A276EE1495659200563522 /* CIAppDelegate.h */ = {isa = PBXFileReference; path = CIAppDelegate.h; sourceTree = "<group>"; };
+		D0A276ED1495659200563522 /* DoorwaySegueExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoorwaySegueExample-Prefix.pch"; sourceTree = "<group>"; };
+		D0A276EE1495659200563522 /* CIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIAppDelegate.h; sourceTree = "<group>"; };
 		D0A276EF1495659200563522 /* CIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAppDelegate.m; sourceTree = "<group>"; };
 		D0A276F21495659200563522 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D0A276F51495659200563522 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D0A276F71495659200563522 /* CIViewController.h */ = {isa = PBXFileReference; path = CIViewController.h; sourceTree = "<group>"; };
+		D0A276F71495659200563522 /* CIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIViewController.h; sourceTree = "<group>"; };
 		D0A276F81495659200563522 /* CIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIViewController.m; sourceTree = "<group>"; };
+		D0A276FF149565AA00563522 /* CIDoorwaySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIDoorwaySegue.h; path = ../CIDoorwaySegue.h; sourceTree = "<group>"; };
+		D0A27700149565AA00563522 /* CIDoorwaySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIDoorwaySegue.m; path = ../CIDoorwaySegue.m; sourceTree = "<group>"; };
+		D0A277021495662200563522 /* Dark Wood Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Wood Background.png"; sourceTree = "<group>"; };
+		D0A27708149566DA00563522 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0A2770B1495674D00563522 /* Black Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Button.png"; sourceTree = "<group>"; };
+		D0A2770C1495674D00563522 /* Black Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Button@2x.png"; sourceTree = "<group>"; };
+		D0A2770F149567FB00563522 /* Denim Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Denim Background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,7 @@
 				D0A276E01495659100563522 /* UIKit.framework in Frameworks */,
 				D0A276E21495659100563522 /* Foundation.framework in Frameworks */,
 				D0A276E41495659100563522 /* CoreGraphics.framework in Frameworks */,
+				D0A27709149566DB00563522 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 				D0A276DF1495659100563522 /* UIKit.framework */,
 				D0A276E11495659100563522 /* Foundation.framework */,
 				D0A276E31495659100563522 /* CoreGraphics.framework */,
+				D0A27708149566DA00563522 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,10 +96,13 @@
 			children = (
 				D0A276EE1495659200563522 /* CIAppDelegate.h */,
 				D0A276EF1495659200563522 /* CIAppDelegate.m */,
-				D0A276F11495659200563522 /* MainStoryboard_iPhone.storyboard */,
-				D0A276F41495659200563522 /* MainStoryboard_iPad.storyboard */,
+				D0A276FF149565AA00563522 /* CIDoorwaySegue.h */,
+				D0A27700149565AA00563522 /* CIDoorwaySegue.m */,
 				D0A276F71495659200563522 /* CIViewController.h */,
 				D0A276F81495659200563522 /* CIViewController.m */,
+				D0A276F11495659200563522 /* MainStoryboard_iPhone.storyboard */,
+				D0A276F41495659200563522 /* MainStoryboard_iPad.storyboard */,
+				D0A2770A1495671200563522 /* Images */,
 				D0A276E61495659100563522 /* Supporting Files */,
 			);
 			path = DoorwaySegueExample;
@@ -99,6 +117,17 @@
 				D0A276ED1495659200563522 /* DoorwaySegueExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0A2770A1495671200563522 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0A2770B1495674D00563522 /* Black Button.png */,
+				D0A2770C1495674D00563522 /* Black Button@2x.png */,
+				D0A277021495662200563522 /* Dark Wood Background.png */,
+				D0A2770F149567FB00563522 /* Denim Background.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +184,10 @@
 				D0A276EA1495659100563522 /* InfoPlist.strings in Resources */,
 				D0A276F31495659200563522 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D0A276F61495659200563522 /* MainStoryboard_iPad.storyboard in Resources */,
+				D0A277031495662200563522 /* Dark Wood Background.png in Resources */,
+				D0A2770D1495674D00563522 /* Black Button.png in Resources */,
+				D0A2770E1495674D00563522 /* Black Button@2x.png in Resources */,
+				D0A27710149567FB00563522 /* Denim Background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +201,7 @@
 				D0A276EC1495659100563522 /* main.m in Sources */,
 				D0A276F01495659200563522 /* CIAppDelegate.m in Sources */,
 				D0A276F91495659200563522 /* CIViewController.m in Sources */,
+				D0A27701149565AA00563522 /* CIDoorwaySegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +288,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DoorwaySegueExample/DoorwaySegueExample-Prefix.pch";
 				INFOPLIST_FILE = "DoorwaySegueExample/DoorwaySegueExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +300,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DoorwaySegueExample/DoorwaySegueExample-Prefix.pch";
 				INFOPLIST_FILE = "DoorwaySegueExample/DoorwaySegueExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +325,7 @@
 				D0A276FE1495659200563522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
