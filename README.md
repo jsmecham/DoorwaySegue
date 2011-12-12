@@ -7,7 +7,7 @@ For more information, see https://github.com/jsmecham/DoorwaySegue.
 
 ## How to Use
 
-Simply copy `CIDoorwaySegue.h` and `maCIDoorwaySegue.m` to your project. Then
+Simply copy `CIDoorwaySegue.h` and `CIDoorwaySegue.m` to your project. Then
 create a "Custom" segue in the Storyboard editor and set the Segue Class to
 `CIDoorwaySegue`.
 
